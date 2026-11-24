@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/Varelser/tiny-chess-4kb/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/Varelser/tiny-chess-4kb/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A chess engine in 4,013 bytes of Python (one file, standard library only). 0x88 board, negamax with PVS, a transposition table, quiescence search with delta pruning that resolves checks in-line, check extensions, and a full tapered piece-square evaluation with a bishop-pair bonus — all driven by a fixed node budget under a hard work cap, never a clock, so every game replays move for move.
+A chess engine in 4,000 bytes of Python (one file, standard library only). 0x88 board, negamax with PVS, a transposition table, killer-move ordering, quiescence search with delta pruning that resolves checks in-line, check extensions, and a full tapered piece-square evaluation — all driven by a fixed node budget under a hard work cap, never a clock, so every game replays move for move.
 
 ## Run it
 
